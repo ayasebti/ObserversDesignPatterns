@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Subject {
 	int state;
-	List<Observer> observers=new ArrayList<>();
+	List<Observer> observers = new ArrayList<>();
 	public int getState() {
 		return state;
 	}
